@@ -16,7 +16,9 @@
     "incremental": true,
     "paths": {
       "@/fonts/*": ["./src/modules/common/assets/fonts/*"],
-      "@/public/*": ["./public/*"]
+      "@/public/*": ["./public/*"],
+      "@/core/*": ["./src/modules/core/*"],
+      "@/product/*": ["./src/modules/product/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
