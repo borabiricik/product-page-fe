@@ -7,6 +7,9 @@ module.exports = {
         avant: ["var(--font-avant)"],
         avenir: ["var(--font-avenir)"],
       },
+      colors: {
+        secondaryGray: "#666666",
+      },
     },
   },
   plugins: [],
