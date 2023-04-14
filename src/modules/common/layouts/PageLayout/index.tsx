@@ -15,7 +15,7 @@ const PageLayout = ({ children, ...props }: IPageLayoutProps) => {
           priority
         />
       </aside>
-      <main className="flex-1 flex items-center justify-center bg-red-200 h-[1000px]">
+      <main className="flex-1 flex items-center justify-center bg-red-200 min-h-screen">
         {children}
       </main>
     </div>
