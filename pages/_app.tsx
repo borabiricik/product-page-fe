@@ -1,9 +1,10 @@
 import { avant, avenir } from "@/fonts/index";
-import type { AppProps } from "next/app";
+import type { AppPropsWithLayout } from "@/types/Layouts";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
+function MyApp({ Component, pageProps }: AppPropsWithLayout) {
+  const getLayout = Component.getLayout ?? ((page) => page);
+  return getLayout(
     <div className={`${avant.variable} ${avenir.variable}`}>
       <Component {...pageProps} />
     </div>
