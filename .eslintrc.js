@@ -2,11 +2,7 @@ module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "unused-imports"],
-  extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "next",
-  ],
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "next", "plugin:storybook/recommended"],
   rules: {
     "unused-imports/no-unused-imports-ts": 2,
     "unused-imports/no-unused-imports": "warn",
@@ -19,12 +15,9 @@ module.exports = {
     "no-var": "off",
     "no-constant-condition": "off",
     "@next/next/no-img-element": "off",
-    "react-hooks/exhaustive-deps": [
-      "warn",
-      {
-        additionalHooks: "(useFetchHandler)",
-      },
-    ],
+    "react-hooks/exhaustive-deps": ["warn", {
+      additionalHooks: "(useFetchHandler)"
+    }],
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/ban-types": "off",
@@ -34,6 +27,6 @@ module.exports = {
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-empty-function": "warn",
-    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
-  },
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off"
+  }
 };
