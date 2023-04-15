@@ -1,10 +1,11 @@
+import { Carousel } from "@/components/Carousel";
 import { Typhography } from "@/components/Typhography";
 import { PageLayout } from "@/layouts/PageLayout";
 import { NextPageWithLayout } from "@/types/Layouts";
 
 const Home: NextPageWithLayout = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="px-[120px]">
         <Typhography className="text-h4 font-bold mb-3" font="avant" as="h4">
           Everyday items, we have something to suit every occasion.
@@ -19,6 +20,7 @@ const Home: NextPageWithLayout = () => {
           Shop All Everyday Items
         </Typhography>
       </div>
+      <Carousel />
     </div>
   );
 };
