@@ -5,7 +5,7 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
   return getLayout(
-    <div className={`${avant.variable} ${avenir.variable}`}>
+    <div className={`${avant.variable} ${avenir.className}`}>
       <Component {...pageProps} />
     </div>
   );

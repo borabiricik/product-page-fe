@@ -4,7 +4,7 @@ import { IPageLayoutProps } from "./types";
 const PageLayout = ({ children, ...props }: IPageLayoutProps) => {
   return (
     <div className="flex items-stretch h-screen overflow-y-scroll">
-      <aside className="flex-1 bg-blue-200 w-full sticky top-0">
+      <aside className="flex-1 w-full sticky top-0">
         <Image
           width={998}
           height={1198}
@@ -15,7 +15,7 @@ const PageLayout = ({ children, ...props }: IPageLayoutProps) => {
           priority
         />
       </aside>
-      <main className="flex-1 flex items-center justify-center bg-red-200 min-h-screen">
+      <main className="flex-1 flex items-center justify-center  min-h-screen">
         {children}
       </main>
     </div>

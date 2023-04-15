@@ -17,7 +17,10 @@
     "paths": {
       "@/fonts/*": ["./src/modules/common/assets/fonts/*"],
       "@/public/*": ["./public/*"],
-      "@/types/*": ["./src/modules/common/types/*"]
+      "@/types/*": ["./src/modules/common/types/*"],
+      "@/utils/*": ["./src/modules/core/utils/*"],
+      "@/layouts/*": ["./src/modules/common/layouts/*"],
+      "@/components/*": ["./src/modules/common/components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
