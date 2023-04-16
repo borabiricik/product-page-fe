@@ -18,7 +18,8 @@
       "@/fonts/*": ["./src/modules/common/assets/fonts/*"],
       "@/public/*": ["./public/*"],
       "@/core/*": ["./src/modules/core/*"],
-      "@/product/*": ["./src/modules/product/*"]
+      "@/product/*": ["./src/modules/product/*"],
+      "@/types/*": ["./src/modules/common/types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
