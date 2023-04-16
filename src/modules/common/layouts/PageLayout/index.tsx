@@ -3,8 +3,8 @@ import { IPageLayoutProps } from "./types";
 
 const PageLayout = ({ children, ...props }: IPageLayoutProps) => {
   return (
-    <div className="flex items-stretch h-screen">
-      <aside className="flex-1 shrink-0">
+    <div className="flex items-stretch relative">
+      <aside className="shrink-0 sticky top-0 w-1/2 h-screen">
         <Image
           width={998}
           height={1198}
