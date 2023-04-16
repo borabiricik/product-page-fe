@@ -1,14 +1,16 @@
 import { store } from "@/core/redux";
 import { avant, avenir } from "@/fonts/index";
-import type { AppProps } from "next/app";
+import { AppPropsWithLayout } from "@/types/Layouts";
 import { Provider } from "react-redux";
+import "swiper/css";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppPropsWithLayout) {
+  const getLayout = Component.getLayout ?? ((page) => page);
   return (
     <Provider store={store}>
       <div className={`${avant.variable} ${avenir.variable}`}>
-        <Component {...pageProps} />
+        {getLayout(<Component {...pageProps} />)}
       </div>
     </Provider>
   );
