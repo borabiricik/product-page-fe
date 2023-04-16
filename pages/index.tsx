@@ -20,11 +20,11 @@ const Home: NextPageWithLayout = () => {
           tincidunt semper eu proin leo gravida cursus.
         </Typhography>
 
-        <Typhography className="text-xs underline underline-offset-[5px] font-black">
+        <Typhography className="text-xs underline underline-offset-[5px] font-black mb-6">
           Shop All Everyday Items
         </Typhography>
       </div>
-      <Carousel className="ml-[120px]" slidesPerView={2.5}>
+      <Carousel className="ml-[120px]" spaceBetween={32} slidesPerView={2.4}>
         {products.map((product) => (
           <SwiperSlide key={product.id}>
             <ProductCard {...product} />
