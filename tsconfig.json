@@ -17,6 +17,8 @@
     "paths": {
       "@/fonts/*": ["./src/modules/common/assets/fonts/*"],
       "@/public/*": ["./public/*"],
+      "@/core/*": ["./src/modules/core/*"],
+      "@/product/*": ["./src/modules/product/*"],
       "@/types/*": ["./src/modules/common/types/*"],
       "@/utils/*": ["./src/modules/core/utils/*"],
       "@/layouts/*": ["./src/modules/common/layouts/*"],
