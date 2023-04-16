@@ -24,13 +24,15 @@ const Home: NextPageWithLayout = () => {
           Shop All Everyday Items
         </Typhography>
       </div>
-      <Carousel className="ml-[120px]" spaceBetween={32} slidesPerView={2.4}>
-        {products.map((product) => (
-          <SwiperSlide key={product.id}>
-            <ProductCard {...product} />
-          </SwiperSlide>
-        ))}
-      </Carousel>
+      <div className="ml-[120px]">
+        <Carousel spaceBetween={32} slidesPerView={2.4}>
+          {products.map((product) => (
+            <SwiperSlide key={product.id}>
+              <ProductCard {...product} />
+            </SwiperSlide>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 };
