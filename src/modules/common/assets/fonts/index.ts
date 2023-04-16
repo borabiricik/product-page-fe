@@ -31,27 +31,27 @@ export const avenir = localFont({
   src: [
     {
       path: "../../../../../public/fonts/Avenir-Light.ttf",
-      weight: "200",
-    },
-    {
-      path: "../../../../../public/fonts/Avenir-Book.ttf",
       weight: "300",
     },
     {
-      path: "../../../../../public/fonts/Avenir-Roman.ttf",
+      path: "../../../../../public/fonts/Avenir-Book.ttf",
       weight: "400",
     },
     {
-      path: "../../../../../public/fonts/Avenir-Medium.ttf",
+      path: "../../../../../public/fonts/Avenir-Roman.ttf",
       weight: "500",
     },
     {
-      path: "../../../../../public/fonts/Avenir-Heavy.ttf",
+      path: "../../../../../public/fonts/Avenir-Medium.ttf",
       weight: "600",
     },
     {
-      path: "../../../../../public/fonts/Avenir-Black.ttf",
+      path: "../../../../../public/fonts/Avenir-Heavy.ttf",
       weight: "700",
+    },
+    {
+      path: "../../../../../public/fonts/Avenir-Black.ttf",
+      weight: "800",
     },
   ],
   variable: "--font-avenir",
