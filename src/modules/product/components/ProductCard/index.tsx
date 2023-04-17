@@ -23,7 +23,7 @@ const ProductCard = ({ title, image, price, color_options }: Product) => {
         <Image
           width={400}
           height={537}
-          className="object-contain w-full mb-3"
+          className="object-contain w-full mb-2 lg:mb-3"
           src={`/images/products/${image}`}
           alt={`${title} image`}
           quality={100}
