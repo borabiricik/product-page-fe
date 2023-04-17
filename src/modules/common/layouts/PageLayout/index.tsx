@@ -12,7 +12,7 @@ const asideAnimationVariants: { [key: string]: Variant } = {
 
 const mainAnimationVariants: { [key: string]: Variant } = {
   initialMobile: { y: "-9", opacity: 0 },
-  animateMobile: { y: "-12rem", opacity: 1 },
+  animateMobile: { y: "-11.25rem", opacity: 1 },
 };
 
 const PageLayout = ({ children }: IPageLayoutProps) => {
