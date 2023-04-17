@@ -6,7 +6,7 @@ export default defineConfig({
       // implement node event listeners here
     },
   },
-
+  fileServerFolder: "public",
   component: {
     devServer: {
       framework: "next",
