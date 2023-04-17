@@ -7,6 +7,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
+
   return (
     <Provider store={store}>
       <div className={`${avant.variable} ${avenir.variable}`}>

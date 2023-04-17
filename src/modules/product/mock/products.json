@@ -2,21 +2,28 @@
   "products": [
     {
       "id": 1,
-      "title": "365 Signature Hoodie",
+      "title": "Organic Skinny High Waist Raw Hem Jeans",
       "price": "33.95",
       "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#A6CC99"],
       "image": "green.png"
     },
     {
       "id": 2,
-      "title": "Organic Skinny High Waist Jeans",
+      "title": "Organic Skinny High Waist Raw Hem Jeans",
       "price": "33.95",
       "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#A6CC99"],
       "image": "white.png"
     },
     {
       "id": 3,
-      "title": "Organic Skinny High Waist Jeans",
+      "title": "Organic Skinny High Waist Raw Hem Jeans",
+      "price": "33.95",
+      "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#A6CC99"],
+      "image": "blue.png"
+    },
+    {
+      "id": 4,
+      "title": "Organic Skinny High Waist Raw Hem Jeans",
       "price": "33.95",
       "color_options": ["#99C3CC", "#CC9999", "#CB99CC", "#A6CC99"],
       "image": "blue.png"
